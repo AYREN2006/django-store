@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TV List</title>
+</head>
+<body>
+    <h1>List of TVs</h1>
+    <ul>
+        {% for tv in tvs %}
+            <li>{{ tv.name }} - {{ tv.price }} تومان</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

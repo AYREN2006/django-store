@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile List</title>
+</head>
+<body>
+    <h1>List of Mobiles</h1>
+    <ul>
+        {% for mobile in mobiles %}
+            <li>{{ mobile.name }} - {{ mobile.price }} تومان</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
